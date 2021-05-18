@@ -1,0 +1,12 @@
+@use "../abstracts/variables";
+
+.header {
+  background-image: linear-gradient(
+      rgba(variables.$dark-purple, 0.8),
+      rgba(variables.$dark-purple, 0.2)
+    ),
+    url("../img/chios.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}

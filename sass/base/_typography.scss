@@ -1,3 +1,4 @@
+@use '../abstracts/variables';
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@400;600&display=swap");
 
 .heading-1 {
@@ -5,4 +6,8 @@
   font-weight: 400;
   font-size: 5rem;
   text-align: center;
+}
+
+.heading-light {
+  color: variables.$pale-silver;
 }

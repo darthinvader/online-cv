@@ -1,11 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@400;600&display=swap");
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url("../img/chios.jpg");
+  background-image: url("../img/Dices.jpg");
   background-size: cover;
+  background-position: center;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation-name: images;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.header__paragraph {
+  font-size: 1.75rem;
 }
 
+@keyframes images {
+  0% {
+    background-image: url("../img/Dices.jpg");
+  }
+  25% {
+    background-image: url("../img/Dices.jpg");
+  }
+  50% {
+    background-image: url("../img/Programming.jpg");
+  }
+  75% {
+    background-image: url("../img/Programming.jpg");
+  }
+  100% {
+    background-image: url("../img/Dices.jpg");
+  }
+}
 *,
 *::after,
 *::before {
@@ -26,11 +54,14 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 5rem;
-  text-align: center;
 }
 
-.heading-light {
+.text-light {
   color: #d8cbc7ff;
+}
+
+p {
+  font-family: "Lora" s;
 }
 
 /*# sourceMappingURL=style.css.map */

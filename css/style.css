@@ -70,7 +70,7 @@
   border-radius: 1rem;
   padding: 3rem 6rem;
   backdrop-filter: blur(10px);
-  background-color: rgba(31, 3, 24, 0.5);
+  background-color: rgba(51, 51, 51, 0.5);
 }
 .header__paragraph {
   font-size: 1.75rem;
@@ -101,6 +101,15 @@
 .about__text {
   padding: 10rem 5rem;
   background-color: #1f0318ff;
+}
+.about__heading {
+  margin-bottom: 3rem;
+}
+.about__paragraph {
+  margin-bottom: 1.75rem;
+}
+.about__item {
+  margin-bottom: 2rem;
 }
 
 *,
@@ -135,12 +144,16 @@ body {
   font-size: 3rem;
 }
 
+.heading-4 {
+  font-size: 2rem;
+}
+
 .text-light {
   color: white;
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Lora" serif;
 }
 

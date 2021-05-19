@@ -84,7 +84,7 @@
 
     backdrop-filter: blur(10px);
 
-    background-color: rgba(variables.$dark-purple, 0.5);
+    background-color: rgba(variables.$dark-gray, 0.5);
   }
 
   &__paragraph {
@@ -120,5 +120,17 @@
   &__text {
     padding: 10rem 5rem;
     background-color: variables.$dark-purple;
+  }
+
+  &__heading {
+    margin-bottom: 3rem;
+  }
+
+  &__paragraph {
+    margin-bottom: 1.75rem;
+  }
+
+  &__item {
+    margin-bottom: 2rem;
   }
 }

@@ -1,17 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@400;600&display=swap");
+.nav {
+  position: fixed;
+}
+
 .header {
+  background-color: #1f0318ff;
+  background-image: url("../img/Programming.jpg");
   background-image: url("../img/Dices.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 100vh;
+  animation-name: images;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  animation-name: images;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+}
+.header__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  padding: 3rem 6rem;
+  background-color: rgba(31, 3, 24, 0.7);
 }
 .header__paragraph {
   font-size: 1.75rem;
@@ -21,17 +36,14 @@
   0% {
     background-image: url("../img/Dices.jpg");
   }
-  25% {
+  30% {
     background-image: url("../img/Dices.jpg");
   }
   50% {
     background-image: url("../img/Programming.jpg");
   }
-  75% {
+  80% {
     background-image: url("../img/Programming.jpg");
-  }
-  100% {
-    background-image: url("../img/Dices.jpg");
   }
 }
 *,
@@ -56,12 +68,18 @@ body {
   font-size: 5rem;
 }
 
+.heading-2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3.75rem;
+}
+
 .text-light {
   color: #d8cbc7ff;
 }
 
 p {
-  font-family: "Lora" s;
+  font-family: "Lora" serif;
 }
 
 /*# sourceMappingURL=style.css.map */

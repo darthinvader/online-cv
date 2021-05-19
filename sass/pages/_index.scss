@@ -1,19 +1,38 @@
 @use "../abstracts/variables";
 
+.nav {
+  position: fixed;
+}
+
 .header {
+  background-color: variables.$dark-purple;
+  background-image: url("../img/Programming.jpg");
   background-image: url("../img/Dices.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 100vh;
+
+  animation-name: images;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  animation-name: images;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 0.5rem;
+    padding: 3rem 6rem;
+
+    background-color: rgba(variables.$dark-purple, 0.7);
+  }
 
   &__paragraph {
     font-size: 1.75rem;
@@ -24,16 +43,13 @@
   0% {
     background-image: url("../img/Dices.jpg");
   }
-  25% {
+  30% {
     background-image: url("../img/Dices.jpg");
   }
   50% {
     background-image: url("../img/Programming.jpg");
   }
-  75% {
+  80% {
     background-image: url("../img/Programming.jpg");
-  }
-  100% {
-    background-image: url("../img/Dices.jpg");
   }
 }

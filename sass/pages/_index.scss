@@ -12,16 +12,16 @@
     text-decoration: none;
     color: white;
     transition: all 1s;
-  }
 
-  &__link:hover {
-    text-shadow: 0.4rem 0.4rem 0.5rem black;
-    transform: translateY(-0.4rem);
-  }
+    &:hover {
+      text-shadow: 0.4rem 0.4rem 0.5rem black;
+      transform: translateY(-0.4rem);
+    }
 
-  &__link:active {
-    text-shadow: 0.2rem 0rem 0.5rem black;
-    transform: translateY(-0.2rem);
+    &:active {
+      text-shadow: 0.2rem 0rem 0.5rem black;
+      transform: translateY(-0.2rem);
+    }
   }
 }
 

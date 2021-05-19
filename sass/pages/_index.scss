@@ -25,17 +25,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   &__text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.4rem 1rem rgba(black, 0.5);
+    border-radius: 1rem;
     padding: 3rem 6rem;
 
-    background-color: rgba(variables.$dark-purple, 0.7);
+    backdrop-filter: blur(10px);
+
+    background-color: rgba(variables.$dark-purple, 0.5);
   }
 
   &__paragraph {

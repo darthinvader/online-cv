@@ -36,7 +36,7 @@
   color: white;
   font-size: 2rem;
   transition: all 0.5s;
-  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
 }
 .nav__link:hover {
   color: #56cbf9ff;
@@ -148,10 +148,12 @@ body {
 }
 
 .heading-3 {
+  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
 }
 
 .heading-4 {
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
 }
 

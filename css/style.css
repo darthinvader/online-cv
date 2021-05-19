@@ -36,7 +36,7 @@
   color: white;
   font-size: 2rem;
   transition: all 0.5s;
-  font-family: "Lora" serif;
+  font-family: "Lora", serif;
 }
 .nav__link:hover {
   color: #56cbf9ff;
@@ -161,7 +161,7 @@ body {
 
 p {
   font-size: 1.6rem;
-  font-family: "Lora" serif;
+  font-family: "Lora", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

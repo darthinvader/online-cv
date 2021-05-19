@@ -51,7 +51,7 @@
   background-image: url("../img/Dices.jpg");
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   animation-name: images;
   animation-duration: 20s;
@@ -110,6 +110,13 @@
 }
 .about__item {
   margin-bottom: 2rem;
+}
+
+.skills__img {
+  width: 100%;
+}
+.skills__text {
+  background-color: #1f0318ff;
 }
 
 *,

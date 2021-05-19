@@ -2,6 +2,10 @@
 
 .nav {
   position: fixed;
+  width: 100%;
+  background-color: rgba(variables.$dark-jungle-green, 0.95);
+
+  padding: 1rem 6rem;
 }
 
 .header {

@@ -7,7 +7,11 @@
 
   padding: 1rem 6rem;
 
-  &__link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__link--logo {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -22,6 +26,17 @@
       text-shadow: 0.2rem 0rem 0.5rem black;
       transform: translateY(-0.2rem);
     }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__link {
+    text-decoration: none;
   }
 }
 

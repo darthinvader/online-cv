@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 10;
 }
 .nav__link--logo {
   display: inline-block;
@@ -89,6 +90,19 @@
   }
 }
 
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.about__img {
+  width: 100%;
+}
+.about__text {
+  padding: 10rem 5rem;
+  background-color: #1f0318ff;
+}
+
 *,
 *::after,
 *::before {
@@ -117,11 +131,16 @@ body {
   font-size: 3.75rem;
 }
 
+.heading-3 {
+  font-size: 3rem;
+}
+
 .text-light {
-  color: #d8cbc7ff;
+  color: white;
 }
 
 p {
+  font-size: 1.8rem;
   font-family: "Lora" serif;
 }
 

@@ -24,12 +24,24 @@
 }
 .nav__list {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   list-style: none;
 }
+.nav__item {
+  padding: 0 3rem;
+}
 .nav__link {
   text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  transition: all 0.5s;
+  font-family: "Lora" serif;
+}
+.nav__link:hover {
+  color: #56cbf9ff;
+}
+.nav__link:active {
+  color: #bbb;
 }
 
 .header {
@@ -62,7 +74,6 @@
 .header__paragraph {
   font-size: 1.75rem;
 }
-
 @keyframes images {
   0% {
     background-image: url("../img/Dices.jpg");
@@ -77,6 +88,7 @@
     background-image: url("../img/Programming.jpg");
   }
 }
+
 *,
 *::after,
 *::before {

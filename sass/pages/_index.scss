@@ -30,13 +30,27 @@
 
   &__list {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     list-style: none;
   }
 
+  &__item {
+    padding: 0 3rem;
+  }
+
   &__link {
     text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    transition: all 0.5s;
+    font-family: variables.$paragraph-fonts;
+
+    &:hover {
+      color: variables.$vivid-sky-blue;
+    }
+    &:active {
+      color: variables.$light-gray;
+    }
   }
 }
 
@@ -75,19 +89,19 @@
   &__paragraph {
     font-size: 1.75rem;
   }
-}
 
-@keyframes images {
-  0% {
-    background-image: url("../img/Dices.jpg");
-  }
-  30% {
-    background-image: url("../img/Dices.jpg");
-  }
-  50% {
-    background-image: url("../img/Programming.jpg");
-  }
-  80% {
-    background-image: url("../img/Programming.jpg");
+  @keyframes images {
+    0% {
+      background-image: url("../img/Dices.jpg");
+    }
+    30% {
+      background-image: url("../img/Dices.jpg");
+    }
+    50% {
+      background-image: url("../img/Programming.jpg");
+    }
+    80% {
+      background-image: url("../img/Programming.jpg");
+    }
   }
 }

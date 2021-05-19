@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@400;600&display=swap");
 
 .heading-1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: variables.$header-fonts;
   font-weight: 400;
   font-size: 5rem;
 }
 
 .heading-2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: variables.$header-fonts;
   font-weight: 400;
   font-size: 3.75rem;
 }
@@ -18,5 +18,5 @@
 }
 
 p {
-  font-family: "Lora" serif;
+  font-family: variables.$paragraph-fonts;
 }

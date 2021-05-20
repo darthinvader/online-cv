@@ -141,6 +141,11 @@
   }
 
   &__text {
+    padding: 3rem;
     background-color: variables.$dark-purple;
+    &--paragraph {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
   }
 }

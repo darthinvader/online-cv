@@ -153,7 +153,15 @@
 .hobbies {
   &__text {
     background-color: variables.$dark-purple;
+    &--paragraph {
+      margin: 2rem 6rem;
+    }
+
+    h3 {
+      margin: 5rem 6rem;
+    }
   }
+
   &__img {
     background-image: url("../img/Dices.jpg");
     background-size: cover;

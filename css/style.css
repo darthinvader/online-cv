@@ -127,6 +127,12 @@
 .hobbies__text {
   background-color: #1f0318ff;
 }
+.hobbies__text--paragraph {
+  margin: 2rem 6rem;
+}
+.hobbies__text h3 {
+  margin: 5rem 6rem;
+}
 .hobbies__img {
   background-image: url("../img/Dices.jpg");
   background-size: cover;

@@ -160,5 +160,23 @@
     background-position: center;
     width: 100%;
     height: 90vh;
+    animation-name: hobbies__images;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes hobbies__images {
+    0% {
+      background-image: url("../img/Dices.jpg");
+    }
+    30% {
+      background-image: url("../img/Dices.jpg");
+    }
+    50% {
+      background-image: url("../img/reading.jpg");
+    }
+    80% {
+      background-image: url("../img/reading.jpg");
+    }
   }
 }

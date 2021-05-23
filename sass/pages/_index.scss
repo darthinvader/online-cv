@@ -11,6 +11,10 @@
   justify-content: space-around;
   align-items: center;
 
+  @media screen and (max-width: variables.$bp-medium) {
+    flex-direction: column;
+  }
+
   z-index: 10;
   &__link--logo {
     display: inline-block;
@@ -33,6 +37,10 @@
     display: flex;
     align-items: center;
     list-style: none;
+
+    @media screen and (max-width: variables.$bp-small) {
+      flex-direction: column;
+    }
   }
 
   &__item {
@@ -42,7 +50,7 @@
   &__link {
     text-decoration: none;
     color: white;
-    font-size: 2rem;
+    font-size: 2.1rem;
     transition: all 0.5s;
     font-family: variables.$header-fonts;
 
@@ -72,12 +80,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   &__text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    text-align: center;
     box-shadow: 0.2rem 0.4rem 1rem rgba(black, 0.5);
     border-radius: 1rem;
     padding: 3rem 6rem;
@@ -111,7 +120,7 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
 
-  @media screen and (max-width: 93.75em) {
+  @media screen and (max-width: variables.$bp-large) {
     grid-template-columns: 100%;
   }
 }
@@ -119,7 +128,7 @@
 .about {
   &__img {
     width: 100%;
-    @media screen and (max-width: 93.75em) {
+    @media screen and (max-width: variables.$bp-large) {
       grid-row: 2/3;
     }
   }
@@ -127,7 +136,7 @@
   &__text {
     padding: 10rem 5rem;
     background-color: variables.$dark-purple;
-    @media screen and (max-width: 93.75em) {
+    @media screen and (max-width: variables.$bp-large) {
       grid-row: 1/2;
     }
   }
@@ -148,7 +157,7 @@
 .skills {
   &__img {
     width: 100%;
-    @media screen and (max-width: 93.75em) {
+    @media screen and (max-width: variables.$bp-large) {
       grid-row: 4/5;
     }
   }
@@ -160,7 +169,7 @@
       margin-top: 2rem;
       margin-bottom: 1rem;
     }
-    @media screen and (max-width: 93.75em) {
+    @media screen and (max-width: variables.$bp-large) {
       grid-row: 3/4;
     }
   }
@@ -208,15 +217,16 @@
 .footer {
   padding: 6rem;
   background-color: variables.$dark-jungle-green;
+
   &__list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-  }
-
-  &__item {
+    @media screen and (max-width: variables.$bp-small) {
+      flex-direction: column;
+    }
   }
 
   &__link {

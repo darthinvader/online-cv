@@ -188,3 +188,37 @@
     }
   }
 }
+
+.footer {
+  padding: 6rem;
+  background-color: variables.$dark-jungle-green;
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  &__item {
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+
+    &:hover {
+      color: variables.$vivid-sky-blue;
+    }
+  }
+
+  &__icon {
+    color: variables.$pale-silver;
+    margin: 0.75rem;
+  }
+}

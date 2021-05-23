@@ -158,6 +158,34 @@
   }
 }
 
+.footer {
+  padding: 6rem;
+  background-color: #00272bff;
+}
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.footer__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+.footer__link:hover {
+  color: #56cbf9ff;
+}
+.footer__icon {
+  color: #d8cbc7ff;
+  margin: 0.75rem;
+}
+
 *,
 *::after,
 *::before {

@@ -110,16 +110,26 @@
 .main {
   display: grid;
   grid-template-columns: repeat(2, 50%);
+
+  @media screen and (max-width: 93.75em) {
+    grid-template-columns: 100%;
+  }
 }
 
 .about {
   &__img {
     width: 100%;
+    @media screen and (max-width: 93.75em) {
+      grid-row: 2/3;
+    }
   }
 
   &__text {
     padding: 10rem 5rem;
     background-color: variables.$dark-purple;
+    @media screen and (max-width: 93.75em) {
+      grid-row: 1/2;
+    }
   }
 
   &__heading {
@@ -138,6 +148,9 @@
 .skills {
   &__img {
     width: 100%;
+    @media screen and (max-width: 93.75em) {
+      grid-row: 4/5;
+    }
   }
 
   &__text {
@@ -146,6 +159,9 @@
     &--paragraph {
       margin-top: 2rem;
       margin-bottom: 1rem;
+    }
+    @media screen and (max-width: 93.75em) {
+      grid-row: 3/4;
     }
   }
 }

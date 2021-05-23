@@ -94,13 +94,28 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
 }
+@media screen and (max-width: 93.75em) {
+  .main {
+    grid-template-columns: 100%;
+  }
+}
 
 .about__img {
   width: 100%;
 }
+@media screen and (max-width: 93.75em) {
+  .about__img {
+    grid-row: 2/3;
+  }
+}
 .about__text {
   padding: 10rem 5rem;
   background-color: #1f0318ff;
+}
+@media screen and (max-width: 93.75em) {
+  .about__text {
+    grid-row: 1/2;
+  }
 }
 .about__heading {
   margin-bottom: 3rem;
@@ -115,6 +130,11 @@
 .skills__img {
   width: 100%;
 }
+@media screen and (max-width: 93.75em) {
+  .skills__img {
+    grid-row: 4/5;
+  }
+}
 .skills__text {
   padding: 3rem;
   background-color: #1f0318ff;
@@ -122,6 +142,11 @@
 .skills__text--paragraph {
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+@media screen and (max-width: 93.75em) {
+  .skills__text {
+    grid-row: 3/4;
+  }
 }
 
 .hobbies__text {

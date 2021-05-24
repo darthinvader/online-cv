@@ -128,6 +128,11 @@
     grid-row: 1/2;
   }
 }
+@media screen and (max-width: 31.25em) {
+  .about__text {
+    padding-top: 17rem;
+  }
+}
 .about__heading {
   margin-bottom: 3rem;
 }
@@ -147,8 +152,18 @@
   }
 }
 .skills__text {
-  padding: 3rem;
+  padding: 5rem;
   background-color: #1f0318ff;
+}
+@media screen and (max-width: 40.625em) {
+  .skills__text {
+    padding-top: 8rem;
+  }
+}
+@media screen and (max-width: 31.25em) {
+  .skills__text {
+    padding-top: 16rem;
+  }
 }
 .skills__text--paragraph {
   margin-top: 2rem;
@@ -161,7 +176,18 @@
 }
 
 .hobbies__text {
+  padding: 3rem;
   background-color: #1f0318ff;
+}
+@media screen and (max-width: 40.625em) {
+  .hobbies__text {
+    padding-top: 6rem;
+  }
+}
+@media screen and (max-width: 31.25em) {
+  .hobbies__text {
+    padding-top: 13rem;
+  }
 }
 .hobbies__text--paragraph {
   margin: 2rem 6rem;

@@ -139,6 +139,9 @@
     @media screen and (max-width: variables.$bp-large) {
       grid-row: 1/2;
     }
+    @media screen and (max-width: variables.$bp-small) {
+      padding-top: 17rem;
+    }
   }
 
   &__heading {
@@ -163,8 +166,14 @@
   }
 
   &__text {
-    padding: 3rem;
+    padding: 5rem;
     background-color: variables.$dark-purple;
+    @media screen and (max-width: variables.$bp-medium) {
+      padding-top: 8rem;
+    }
+    @media screen and (max-width: variables.$bp-small) {
+      padding-top: 16rem;
+    }
     &--paragraph {
       margin-top: 2rem;
       margin-bottom: 1rem;
@@ -177,7 +186,14 @@
 
 .hobbies {
   &__text {
+    padding: 3rem;
     background-color: variables.$dark-purple;
+    @media screen and (max-width: variables.$bp-medium) {
+      padding-top: 6rem;
+    }
+    @media screen and (max-width: variables.$bp-small) {
+      padding-top: 13rem;
+    }
     &--paragraph {
       margin: 2rem 6rem;
     }

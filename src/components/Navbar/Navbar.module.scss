@@ -35,18 +35,15 @@
 
 .listUpper {
   a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
     content: "";
     display: block;
     height: 1px;
     background: white;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0%;
+    width: 0;
   }
   a:hover:after {
     width: 100%;
-    left: 0;
   }
 }
 

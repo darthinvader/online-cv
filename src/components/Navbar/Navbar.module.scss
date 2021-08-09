@@ -3,3 +3,14 @@
   display: flex;
   justify-content: center;
 }
+
+.navbar {
+  max-width: 120rem;
+  width: 100vw;
+  height: 5rem;
+  background-color: #002956;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+}

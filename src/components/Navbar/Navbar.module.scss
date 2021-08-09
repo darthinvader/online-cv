@@ -14,3 +14,29 @@
   display: flex;
   flex-direction: column;
 }
+
+.navList {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 2.6rem;
+  justify-content: space-around;
+  align-items: center;
+  color: #04e3ff;
+  a:hover {
+    color: white;
+  }
+}
+
+.middleCircle {
+  position: absolute;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-color: #002956;
+  left: 50%;
+  top: -2.3rem;
+  transform: translateX(-50%);
+  z-index: -1;
+  color: #04e3ff;
+}

@@ -25,7 +25,7 @@
   color: #04e3ff;
   margin-top: 0.3rem;
   a:hover {
-    color: white;
+    color: lighten(#04e3ff, 30%);
   }
 }
 
@@ -39,5 +39,4 @@
   top: -2.3rem;
   transform: translateX(-50%);
   z-index: -1;
-  color: #04e3ff;
 }

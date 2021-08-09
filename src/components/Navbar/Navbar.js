@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <div className={styles.pageCentering}>
         <nav className={styles.navbar}>
-          <ul className={styles.navList}>
+          <ul className={`${styles.navList} + ${styles.listUpper}`}>
             <li>
               <a href="#About">About Me</a>
             </li>

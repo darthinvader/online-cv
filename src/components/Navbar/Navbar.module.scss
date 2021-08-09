@@ -1,3 +1,5 @@
+@use '../../sass/abstracts/variables';
+
 .pageCentering {
   width: 100vw;
   display: flex;
@@ -8,7 +10,7 @@
   max-width: 120rem;
   width: 100vw;
   height: 5rem;
-  background-color: #002956;
+  background-color: variables.$navbar-background;
   border-bottom-left-radius: 5rem;
   border-bottom-right-radius: 5rem;
   display: flex;
@@ -22,7 +24,7 @@
   font-size: 2.6rem;
   justify-content: space-around;
   align-items: center;
-  color: #04e3ff;
+  color: variables.$navbar-link-color;
   a {
     display: inline-block;
     position: relative;
@@ -39,7 +41,7 @@
     display: block;
     height: 1px;
     background: white;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s;
     width: 0;
   }
   a:hover:after {
@@ -52,7 +54,7 @@
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
-  background-color: #002956;
+  background-color: variables.$navbar-background;
   left: 50%;
   top: -2.3rem;
   transform: translateX(-50%);

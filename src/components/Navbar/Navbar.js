@@ -1,7 +1,9 @@
+import styles from "./Navbar.module.scss";
+
 const Navbar = () => {
   return;
   <>
-    <div></div>
+    <div className={styles.pageCentering}></div>
   </>;
 };
 

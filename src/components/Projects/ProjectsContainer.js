@@ -1,4 +1,4 @@
-import styles from "./ProjectContainer.module.scss";
+import styles from "./ProjectsContainer.module.scss";
 import Project from "./Project/Project";
 const ProjectsContainer = () => {
   const projects = [];

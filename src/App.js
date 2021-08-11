@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import styles from "./App.module.scss";
-import ProjectsContainer from "./components/Projects/ProjectContainer";
+import ProjectsContainer from "./components/Projects/ProjectsContainer";
 function App() {
   return (
     <div className={styles.PageCentering}>

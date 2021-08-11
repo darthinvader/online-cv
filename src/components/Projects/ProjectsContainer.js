@@ -35,7 +35,7 @@ const ProjectsContainer = () => {
       background={{ background: "linear-gradient(#001f2b,white)" }}
       title="Ioanna Psaradakis' Personal Website"
       subTitle="Html, css, Responsive Design, Github Pages"
-      description="This website is designed to be a personal website for Ioanna Psaradakis. The Design was handled with Adobe XD design platform using transitions when applicable"
+      description="The Design was handled with Adobe XD design platform using transitions when applicable."
     />
   );
 

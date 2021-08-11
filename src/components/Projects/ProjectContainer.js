@@ -1,7 +1,11 @@
-import styles from "ProjectContainer.module.scss";
+import styles from "./ProjectContainer.module.scss";
+import Project from "./Project/Project";
+const ProjectsContainer = () => {
+  const projects = [];
 
-const Projects = () => {
+  projects.push(<Project />);
+
   return <div className={styles.ProjectContainer}>{/* Projects here */}</div>;
 };
 
-export default Projects;
+export default ProjectsContainer;

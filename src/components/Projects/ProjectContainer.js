@@ -5,6 +5,7 @@ const ProjectsContainer = () => {
 
   projects.push(
     <Project
+      key={1}
       link="https://cocktail-bartender.netlify.app"
       imgLink="https://i.imgur.com/RP3Z2GJm.png"
       background={{ background: "linear-gradient(#b5651d,white)" }}
@@ -16,6 +17,7 @@ const ProjectsContainer = () => {
 
   projects.push(
     <Project
+      key={2}
       link="https://github.com/darthinvader/BoardGameVendor"
       imgLink="https://i.imgur.com/IiQIPSjl.png"
       background={{ background: "linear-gradient(#4a48ff,white)" }}
@@ -27,6 +29,7 @@ const ProjectsContainer = () => {
 
   projects.push(
     <Project
+      key={3}
       link="https://darthinvader.github.io/Ioanna-Psaradaki-Personal-Web-Page/"
       imgLink="https://i.imgur.com/8XoGWZL.png"
       background={{ background: "linear-gradient(#001f2b,white)" }}

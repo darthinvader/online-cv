@@ -8,7 +8,7 @@ const Project = ({
   description,
 }) => {
   return (
-    <a href={link}>
+    <a href={link} target="_blank" rel="noreferrer">
       <div className={styles.projectContainer}>
         <div className={styles.imageContainer} style={background}>
           <img src={imgLink} alt={title} />

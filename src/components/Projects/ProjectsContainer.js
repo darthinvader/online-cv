@@ -40,10 +40,10 @@ const ProjectsContainer = () => {
   );
 
   return (
-    <>
+    <div id="Projects">
       <h1 className={styles.ProjectsTitle}>Projects</h1>
       <div className={styles.ProjectsContainer}>{projects}</div>
-    </>
+    </div>
   );
 };
 

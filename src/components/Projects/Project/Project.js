@@ -14,9 +14,9 @@ const Project = ({
           <img src={imgLink} alt={title} />
         </div>
         <div className={styles.projectContent}>
-          <h2 className="project-title">{title}</h2>
-          <h3 className="project-subtitle">{subTitle}</h3>
-          <p className="project-description">{description}</p>
+          <h2>{title}</h2>
+          <h3>{subTitle}</h3>
+          <p>{description}</p>
         </div>
       </div>
     </a>

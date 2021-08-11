@@ -8,16 +8,16 @@
     color: variables.$project-blue;
   }
   &:hover .imageContainer {
-    transform: translate(1rem, 5rem);
+    transform: translate(3rem, 5rem);
     opacity: 0.9;
   }
 }
 .imageContainer {
   opacity: 0.7;
   position: relative;
-  transform: translate(1rem, 7rem);
-  width: 30rem;
-  height: 17rem;
+  transform: translate(3rem, 7rem);
+  width: 36rem;
+  height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@
 
 .projectContent {
   position: absolute;
-  width: 40rem;
+  width: 45rem;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   z-index: 10;

@@ -2,7 +2,7 @@
 
 .projectContainer {
   cursor: pointer;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 
   &:hover h1 {
     color: variables.$project-blue;
@@ -37,7 +37,6 @@
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   z-index: 10;
-
   h2 {
     font-size: 4rem;
   }

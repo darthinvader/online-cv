@@ -35,7 +35,7 @@ const ProjectsContainer = () => {
       imgLink="https://i.imgur.com/8XoGWZL.png"
       background={{ background: "linear-gradient(#001f2b,white)" }}
       title="Personal Website"
-      subTitle="Html, css, Responsive Design, Github Pages"
+      subTitle="Html, css, Responsive Design"
       description="The Design was handled with Adobe XD design platform using transitions when applicable."
     />
   );

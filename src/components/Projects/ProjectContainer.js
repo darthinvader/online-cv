@@ -14,6 +14,28 @@ const ProjectsContainer = () => {
     />
   );
 
+  projects.push(
+    <Project
+      link="https://github.com/darthinvader/BoardGameVendor"
+      imgLink="https://i.imgur.com/IiQIPSjl.png"
+      background={{ background: "linear-gradient(#4a48ff,white)" }}
+      title="Boardgame Vendor"
+      subTitle="React, scss, CRUD, SPA"
+      description="An app that allows you to manage and search your favorite boardgames. The implementation was done using React."
+    />
+  );
+
+  projects.push(
+    <Project
+      link="https://darthinvader.github.io/Ioanna-Psaradaki-Personal-Web-Page/"
+      imgLink="https://i.imgur.com/8XoGWZL.png"
+      background={{ background: "linear-gradient(#001f2b,white)" }}
+      title="Ioanna Psaradakis' Personal Website"
+      subTitle="Html, css, Responsive Design, Github Pages"
+      description="This website is designed to be a personal website for Ioanna Psaradakis. The Design was handled with Adobe XD design platform using transitions when applicable"
+    />
+  );
+
   return (
     <>
       <h1 className={styles.ProjectsTitle}>Projects</h1>

@@ -33,7 +33,7 @@ const ProjectsContainer = () => {
       link="https://darthinvader.github.io/Ioanna-Psaradaki-Personal-Web-Page/"
       imgLink="https://i.imgur.com/8XoGWZL.png"
       background={{ background: "linear-gradient(#001f2b,white)" }}
-      title="Ioanna Psaradakis' Personal Website"
+      title="Personal Website"
       subTitle="Html, css, Responsive Design, Github Pages"
       description="The Design was handled with Adobe XD design platform using transitions when applicable."
     />

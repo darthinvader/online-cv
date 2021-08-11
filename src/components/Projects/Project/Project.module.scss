@@ -12,3 +12,21 @@
     opacity: 0.9;
   }
 }
+.imageContainer {
+  opacity: 0.7;
+  position: relative;
+  transform: translate(1rem, 7rem);
+  width: 30rem;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+
+  transition: all 0.5s cubic-bezier(0.5, 0.18, 0.18, 0.5);
+
+  img {
+    max-width: 85%;
+    max-height: 85%;
+  }
+}

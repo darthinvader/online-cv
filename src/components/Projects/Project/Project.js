@@ -10,7 +10,7 @@ const Project = ({
   return (
     <a href={link}>
       <div className={styles.projectContainer}>
-        <div className="image-container" style={background}>
+        <div className={styles.imageContainer} style={background}>
           <img src={imgLink} alt={title} />
         </div>
         <div className="project-content">

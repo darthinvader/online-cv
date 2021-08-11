@@ -1,3 +1,4 @@
+import styles from "./Project.module.scss";
 const Project = ({
   link,
   imgLink,
@@ -8,7 +9,7 @@ const Project = ({
 }) => {
   return (
     <a href={link}>
-      <div className="project-container">
+      <div className={styles.projectContainer}>
         <div className="image-container" style={background}>
           <img src={imgLink} alt={title} />
         </div>

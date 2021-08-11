@@ -1,0 +1,14 @@
+@use '../../../sass/abstracts/variables'
+
+.projectContainer {
+  cursor: pointer;
+  margin-bottom: 10rem;
+
+  &:hover h1 {
+    color: variables.$project-blue;
+  }
+  &:hover .imageContainer {
+    transform: translate(1rem, 5rem);
+    opacity: 0.9;
+  }
+}

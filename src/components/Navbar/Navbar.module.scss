@@ -1,14 +1,6 @@
 @use '../../sass/abstracts/variables';
 
-.pageCentering {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
-
 .navbar {
-  max-width: 120rem;
-  width: 100vw;
   height: 5rem;
   background-color: variables.$navbar-background;
   border-bottom-left-radius: 5rem;

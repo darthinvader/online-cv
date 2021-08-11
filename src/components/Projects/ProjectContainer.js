@@ -14,7 +14,7 @@ const ProjectsContainer = () => {
     />
   );
 
-  return <div className={styles.ProjectContainer}>{projects}</div>;
+  return <div className={styles.ProjectsContainer}>{projects}</div>;
 };
 
 export default ProjectsContainer;

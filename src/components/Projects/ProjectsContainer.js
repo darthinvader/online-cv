@@ -44,7 +44,9 @@ const ProjectsContainer = () => {
     <div id="Projects">
       <h1 className={styles.ProjectsTitle}>
         <TextTypper text="Projects" />
-        <span className={styles.dot}>.</span>
+        <span className={styles.dot}>
+          <TextTypper text="." fixedTimer={9 * 150} />
+        </span>
       </h1>
       <div className={styles.ProjectsContainer}>{projects}</div>
     </div>

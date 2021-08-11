@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-const TextTypper = ({ text }) => {
+const TextTypper = ({ text, fixedTimer, timerMultiplier = 150 }) => {
   const [typedText, setTypedText] = useState("");
 
   const typer = useCallback(() => {
@@ -9,7 +9,13 @@ const TextTypper = ({ text }) => {
       const typedText = text.substring(0, currentIndex);
       setTypedText(typedText);
     };
-    for (let i = 0; i <= text.length; i++) setTimeout(() => typing(i), i * 150);
+    for (let i = 0; i <= text.length; i++) {
+      if (fixedTimer) {
+        setTimeout(() => typing(i), fixedTimer);
+      } else {
+        setTimeout(() => typing(i), i * timerMultiplier);
+      }
+    }
   }, [text]);
 
   useEffect(typer, [typer]);

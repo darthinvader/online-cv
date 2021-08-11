@@ -3,9 +3,18 @@ import Project from "./Project/Project";
 const ProjectsContainer = () => {
   const projects = [];
 
-  projects.push(<Project />);
+  projects.push(
+    <Project
+      link="https://cocktail-bartender.netlify.app"
+      imgLink="https://i.imgur.com/RP3Z2GJm.png"
+      background={{ background: "linear-gradient(#b5651d,white)" }}
+      title="Bartender App"
+      subTitle="React, scss, Responsive Design"
+      description="A simple app that allows you to search for a random drink from a single ingredient. The implementation was done using React."
+    />
+  );
 
-  return <div className={styles.ProjectContainer}>{/* Projects here */}</div>;
+  return <div className={styles.ProjectContainer}>{projects}</div>;
 };
 
 export default ProjectsContainer;

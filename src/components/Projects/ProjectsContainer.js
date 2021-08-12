@@ -1,6 +1,6 @@
 import styles from "./ProjectsContainer.module.scss";
 import Project from "./Project/Project";
-import TextTypper from "../TextTypper/TextTypper";
+import TextTypperTitle from "../TextTypperTitle/TextTypperTitle";
 const ProjectsContainer = () => {
   const projects = [];
 
@@ -42,12 +42,7 @@ const ProjectsContainer = () => {
 
   return (
     <div id="Projects">
-      <h1 className={styles.ProjectsTitle}>
-        <TextTypper text="Projects" />
-        <span className={styles.dot}>
-          <TextTypper text="." fixedTimer={9 * 150} />
-        </span>
-      </h1>
+      <TextTypperTitle title="Projects" />
       <div className={styles.ProjectsContainer}>{projects}</div>
     </div>
   );

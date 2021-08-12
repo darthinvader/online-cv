@@ -16,7 +16,7 @@ const TextTypper = ({ text, fixedTimer, timerMultiplier = 150 }) => {
         setTimeout(() => typing(i), i * timerMultiplier);
       }
     }
-  }, [text]);
+  }, [text, fixedTimer, timerMultiplier]);
 
   useEffect(typer, [typer]);
 

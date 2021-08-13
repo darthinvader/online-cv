@@ -4,7 +4,7 @@ import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
-    <>
+    <div id="Footer">
       <TextTypperTitle title="Contact Me" />
       <footer id="footer" className={styles.Footer}>
         <a href="mailto: psaradakisj@gmail.com" className={styles.Link}>
@@ -27,7 +27,7 @@ const Footer = () => {
           <AiFillLinkedin></AiFillLinkedin>
         </a>
       </footer>
-    </>
+    </div>
   );
 };
 

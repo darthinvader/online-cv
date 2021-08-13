@@ -24,7 +24,7 @@ const AboutMe = () => {
           <h2>Education</h2>
           <Experience
             ExperienceName="Computer Science"
-            ExperienceDetail="University Of Crete | Herakleion,Greece | April 2020 - Present"
+            ExperienceDetail="University Of Crete | Herakleion,Greece | 2013 - 2018"
             Description=""
           />
         </div>

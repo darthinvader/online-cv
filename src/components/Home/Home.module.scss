@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  margin: 0 1rem;
 }
 
 .Image {
@@ -18,12 +19,18 @@
   @media screen and (max-width: variables.$small-width) {
     font-size: 3.2rem;
   }
+  @media screen and (max-width: variables.$tiny-width) {
+    font-size: 2.5rem;
+  }
 }
 
 .Details {
   font-size: 2.6rem;
   @media screen and (max-width: variables.$small-width) {
     font-size: 1.7rem;
+  }
+  @media screen and (max-width: variables.$tiny-width) {
+    font-size: 1.6rem;
   }
 }
 

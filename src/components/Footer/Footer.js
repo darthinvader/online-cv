@@ -4,7 +4,7 @@ import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
-    <div id="Footer">
+    <div id="Contact">
       <TextTypperTitle title="Contact Me" />
       <footer id="footer" className={styles.Footer}>
         <a href="mailto: psaradakisj@gmail.com" className={styles.Link}>

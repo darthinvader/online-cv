@@ -1,3 +1,5 @@
+@use '../../sass/abstracts/variables';
+
 .Home {
   margin-top: 10rem;
   display: flex;
@@ -12,10 +14,17 @@
 
 .Title {
   font-size: 5rem;
+
+  @media screen and (max-width: variables.$small-width) {
+    font-size: 3.2rem;
+  }
 }
 
 .Details {
   font-size: 2.6rem;
+  @media screen and (max-width: variables.$small-width) {
+    font-size: 1.7rem;
+  }
 }
 
 .Text {

@@ -4,7 +4,10 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.navbar}>
-        <ul className={`${styles.navList} + ${styles.listUpper}`}>
+        <ul className={styles.navList}>
+          <li>
+            <a href="#Home"> Home</a>
+          </li>
           <li>
             <a href="#About">About Me</a>
           </li>
@@ -18,13 +21,7 @@ const Navbar = () => {
             <a href="#Contact">Contact Me</a>
           </li>
         </ul>
-        <ul className={styles.navList}>
-          <li>
-            <a href="#Home"> Home</a>
-          </li>
-        </ul>
       </nav>
-      <div className={styles.middleCircle}></div>
     </>
   );
 };

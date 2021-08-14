@@ -3,7 +3,7 @@ import TextTypper from "../TextTypper/TextTypper";
 
 const Home = () => {
   return (
-    <div className={styles.Home}>
+    <div className={styles.Home} id="Home">
       <img
         src="https://i.imgur.com/yuBq01x.png"
         alt="computer"

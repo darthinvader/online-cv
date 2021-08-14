@@ -1,5 +1,6 @@
 .ProjectsContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+  flex-wrap: wrap;
 }

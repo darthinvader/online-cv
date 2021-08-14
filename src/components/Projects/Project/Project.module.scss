@@ -14,8 +14,14 @@
 .imageContainer {
   opacity: 0.7;
   transform: translate(3rem, 7rem);
+
   width: 36rem;
   height: 20rem;
+  @media screen and (max-width: variables.$tiny-width) {
+    width: 29rem;
+    height: 16rem;
+  }
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +38,10 @@
 .projectContent {
   position: relative;
   width: 45rem;
+  @media screen and (max-width: variables.$tiny-width) {
+    width: 40rem;
+  }
+
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -40,6 +50,9 @@
     color: rgb(66, 66, 66);
     font-size: 4rem;
     font-weight: 700;
+    @media screen and (max-width: variables.$tiny-width) {
+      font-size: 3.4rem;
+    }
   }
   h3 {
     color: rgb(66, 66, 66);

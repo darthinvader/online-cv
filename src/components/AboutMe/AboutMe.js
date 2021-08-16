@@ -10,12 +10,12 @@ const AboutMe = () => {
         <h2 className={styles.Subtitle}>Experience</h2>
         <Experience
           ExperienceName="Tom Sawyer Software"
-          ExperienceDetail="Herakleion,Greece | May 2019- Oct 2019"
+          ExperienceDetail="Herakleion | May 2019 - Oct 2019"
           Description="Java Developer for the Perspectives Product"
         />
         <Experience
           ExperienceName="Convert Group"
-          ExperienceDetail="Athens,Greece | April 2020 - Present"
+          ExperienceDetail="Athens | April 2020 - Present"
           Description="Python Developer for with emphasis on Web Scraping with the Scrapy
             API."
         />
@@ -24,7 +24,7 @@ const AboutMe = () => {
         <h2 className={styles.Subtitle}>Education</h2>
         <Experience
           ExperienceName="Computer Science"
-          ExperienceDetail="University Of Crete | Herakleion,Greece | 2013 - 2018"
+          ExperienceDetail="University Of Crete | Herakleion | 2013 - 2018"
           Description=""
         />
       </div>

@@ -1,0 +1,40 @@
+@use '../../sass/abstracts/variables';
+
+.ProjectsTitle {
+  margin-top: 10rem;
+  margin-left: 1rem;
+  font-size: 4rem;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: variables.$project-blue;
+    width: 10rem;
+  }
+}
+
+.dot {
+  color: variables.$project-blue;
+  &::after {
+    font-size: 5rem;
+    content: "|";
+    animation-duration: 0.4s;
+    animation-name: appear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    animation-timing-function: ease-in-out;
+    opacity: 100%;
+
+    @keyframes appear {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 100%;
+      }
+    }
+  }
+}

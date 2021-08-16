@@ -1,0 +1,67 @@
+@use '../../../sass/abstracts/variables';
+
+.projectContainer {
+  cursor: pointer;
+
+  &:hover h2 {
+    color: variables.$project-blue;
+  }
+  &:hover .imageContainer {
+    transform: translate(3rem, 5rem);
+    opacity: 0.9;
+  }
+}
+.imageContainer {
+  opacity: 0.7;
+  transform: translate(3rem, 7rem);
+
+  width: 36rem;
+  height: 20rem;
+  @media screen and (max-width: variables.$tiny-width) {
+    width: 29rem;
+    height: 16rem;
+  }
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  transition: all 0.5s cubic-bezier(0.5, 0.18, 0.18, 0.5);
+  z-index: 0;
+  img {
+    max-width: 85%;
+    max-height: 85%;
+  }
+}
+
+.projectContent {
+  position: relative;
+  width: 45rem;
+  @media screen and (max-width: variables.$tiny-width) {
+    width: 40rem;
+  }
+
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  padding: 0 3rem;
+  h2 {
+    color: rgb(66, 66, 66);
+    font-size: 4rem;
+    font-weight: 700;
+    @media screen and (max-width: variables.$tiny-width) {
+      font-size: 3.4rem;
+    }
+  }
+  h3 {
+    color: rgb(66, 66, 66);
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+  p {
+    color: rgb(88, 88, 88);
+    padding-top: 1rem;
+    font-size: 1.6rem;
+  }
+}

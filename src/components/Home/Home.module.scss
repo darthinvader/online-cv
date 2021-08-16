@@ -6,6 +6,9 @@
   justify-content: center;
   position: relative;
   margin: 0 1rem;
+  @media screen and (max-width: variables.$small-width) {
+    margin-top: 3rem;
+  }
 }
 
 .Image {

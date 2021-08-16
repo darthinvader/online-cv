@@ -15,7 +15,13 @@ const Navbar = () => {
             <a href="#Projects">Projects</a>
           </li>
           <li>
-            <a href="#CV">CV</a>
+            <a
+              href="https://drive.google.com/file/d/1nkpTMiL7u5BFJhPxLLm2aBIZ4tTfS9ca/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CV
+            </a>
           </li>
           <li>
             <a href="#Contact">Contact Me</a>

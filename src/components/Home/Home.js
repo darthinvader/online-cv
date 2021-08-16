@@ -17,10 +17,7 @@ const Home = () => {
           />
         </h1>
         <p className={styles.Details}>
-          <TextTypper
-            text="Front End Developer with Background in Python and Java"
-            timerMultiplier={70}
-          />
+          <TextTypper text="Front End Developer" timerMultiplier={70} />
         </p>
       </div>
     </div>

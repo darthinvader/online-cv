@@ -11,7 +11,7 @@ const ProjectsContainer = () => {
       imgLink="https://i.imgur.com/RP3Z2GJm.png"
       background={{ background: "linear-gradient(#b5651d,white)" }}
       title="Bartender App"
-      subTitle="React, scss, Responsive Design"
+      subTitle="React,scss, Responsive Design"
       description="A simple app that allows you to search for a random drink from a single ingredient. The implementation was done using React."
     />
   );
@@ -35,8 +35,8 @@ const ProjectsContainer = () => {
       imgLink="https://i.imgur.com/8XoGWZL.png"
       background={{ background: "linear-gradient(#001f2b,white)" }}
       title="Personal Website"
-      subTitle="Html, css, Responsive Design"
-      description="The Design was handled with Adobe XD design platform using transitions when applicable."
+      subTitle="Html, css, Responsive Design, Adobe XDs"
+      description="Implemented with html and css. The Design was handled with Adobe XD design platform using transitions when applicable."
     />
   );
 

@@ -9,8 +9,13 @@ const AboutMe = () => {
       <div className={styles.Card}>
         <h2 className={styles.Subtitle}>Experience</h2>
         <Experience
+          ExperienceName="Enreach"
+          ExperienceDetail="Almere Netherlands | November 2021 - Present"
+          Description="Front end developer focusing React-typescript Applications"
+        />
+        <Experience
           ExperienceName="Convert Group"
-          ExperienceDetail="Athens | April 2020 - Present"
+          ExperienceDetail="Athens | April 2020 - January 2022"
           Description="Python Developer for with emphasis on Web Scraping with the Scrapy
             API."
         />

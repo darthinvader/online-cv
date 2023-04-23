@@ -9,9 +9,10 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, AboutComponent, ExperienceComponent, EducationComponent, SkillsComponent, ProjectsComponent, ContactComponent],
+  declarations: [AppComponent, AboutComponent, ExperienceComponent, EducationComponent, SkillsComponent, ProjectsComponent, ContactComponent, NavbarComponent],
   imports: [BrowserModule, BrowserAnimationsModule, MatSlideToggleModule],
   providers: [],
   bootstrap: [AppComponent],

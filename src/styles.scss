@@ -30,3 +30,7 @@ $shadow-dark-2: #40454a;
   color: $text-dark;
   box-shadow: 3px 3px 6px $shadow-dark-1, -3px -3px 6px $shadow-dark-2;
 }
+
+html {
+  scroll-behavior: smooth;
+}

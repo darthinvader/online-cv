@@ -8,10 +8,10 @@ import {
   matfDatabaseColored,
   matfFirebaseColored,
   matfJavaColored,
-  matfJavascriptColored,
   matfMatlabColored,
   matfPythonColored,
   matfReactTsColored,
+  matfTypescriptColored,
 } from '@ng-icons/material-file-icons/colored';
 
 import { AboutComponent } from './about/about.component';
@@ -51,10 +51,10 @@ import { SkillsComponent } from './skills/skills.component';
       matfDatabaseColored,
       matfFirebaseColored,
       matfJavaColored,
-      matfJavascriptColored,
       matfMatlabColored,
       matfPythonColored,
       matfReactTsColored,
+      matfTypescriptColored,
     }),
   ],
   providers: [],

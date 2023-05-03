@@ -19,15 +19,15 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { ContactComponent } from './contact/contact.component';
+import { ContainerComponent } from './container/container.component';
 import { EducationComponent } from './education/education.component';
-import { ExperiencesComponent } from './experiences/experiences.component';
+import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { NgModule } from '@angular/core';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
-import { ContainerComponent } from './container/container.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +39,7 @@ import { ContainerComponent } from './container/container.component';
     ContactComponent,
     FooterComponent,
     SkillsComponent,
-    ExperiencesComponent,
+    ExperienceComponent,
     ContainerComponent,
   ],
   imports: [

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-experiences',
-  templateUrl: './experiences.component.html',
-  styleUrls: ['./experiences.component.scss'],
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.scss'],
 })
-export class ExperiencesComponent {
+export class ExperienceComponent {
   experiences = [
     {
       title: 'Frontend Developer',

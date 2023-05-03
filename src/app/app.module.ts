@@ -3,6 +3,16 @@ import {
   bootstrapGithub,
   bootstrapLinkedin,
 } from '@ng-icons/bootstrap-icons';
+import {
+  matfAngularColored,
+  matfDatabaseColored,
+  matfFirebaseColored,
+  matfJavaColored,
+  matfJavascriptColored,
+  matfMatlabColored,
+  matfPythonColored,
+  matfReactTsColored,
+} from '@ng-icons/material-file-icons/colored';
 
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
@@ -16,6 +26,7 @@ import { HeaderComponent } from './header/header.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { NgModule } from '@angular/core';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +38,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     PortfolioComponent,
     ContactComponent,
     FooterComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +47,14 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
       bootstrapLinkedin,
       bootstrapGithub,
       bootstrapFileEarmarkPdfFill,
+      matfAngularColored,
+      matfDatabaseColored,
+      matfFirebaseColored,
+      matfJavaColored,
+      matfJavascriptColored,
+      matfMatlabColored,
+      matfPythonColored,
+      matfReactTsColored,
     }),
   ],
   providers: [],

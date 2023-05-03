@@ -1,4 +1,8 @@
-import { bootstrapGithub, bootstrapLinkedin } from '@ng-icons/bootstrap-icons';
+import {
+  bootstrapFileEarmarkPdfFill,
+  bootstrapGithub,
+  bootstrapLinkedin,
+} from '@ng-icons/bootstrap-icons';
 
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
@@ -27,7 +31,11 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgIconsModule.withIcons({ bootstrapLinkedin, bootstrapGithub }),
+    NgIconsModule.withIcons({
+      bootstrapLinkedin,
+      bootstrapGithub,
+      bootstrapFileEarmarkPdfFill,
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

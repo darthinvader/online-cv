@@ -18,7 +18,6 @@ import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
-import { ContactComponent } from './contact/contact.component';
 import { ContainerComponent } from './container/container.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -36,7 +35,6 @@ import { SkillsComponent } from './skills/skills.component';
     AboutComponent,
     EducationComponent,
     PortfolioComponent,
-    ContactComponent,
     FooterComponent,
     SkillsComponent,
     ExperienceComponent,

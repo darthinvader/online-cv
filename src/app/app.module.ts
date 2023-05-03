@@ -1,15 +1,17 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { bootstrapGithub, bootstrapLinkedin } from '@ng-icons/bootstrap-icons';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { EducationComponent } from './education/education.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
 import { ContactComponent } from './contact/contact.component';
+import { EducationComponent } from './education/education.component';
+import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { NgIconsModule } from '@ng-icons/core';
+import { NgModule } from '@angular/core';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,14 @@ import { FooterComponent } from './footer/footer.component';
     EducationComponent,
     PortfolioComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgIconsModule.withIcons({ bootstrapLinkedin, bootstrapGithub }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

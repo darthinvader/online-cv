@@ -25,6 +25,12 @@ dependencies:
   '@angular/router':
     specifier: ^15.2.0
     version: 15.2.8(@angular/common@15.2.8)(@angular/core@15.2.8)(@angular/platform-browser@15.2.8)(rxjs@7.8.1)
+  '@ng-icons/bootstrap-icons':
+    specifier: ^24.0.0
+    version: 24.0.0
+  '@ng-icons/core':
+    specifier: ^24.0.0
+    version: 24.0.0(@angular/common@15.2.8)(@angular/core@15.2.8)
   rxjs:
     specifier: ~7.8.0
     version: 7.8.1
@@ -1966,6 +1972,23 @@ packages:
   /@leichtgewicht/ip-codec@2.0.4:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
+
+  /@ng-icons/bootstrap-icons@24.0.0:
+    resolution: {integrity: sha512-3C330psQnE3ehLhlqkTrM1MHKlzvNm6c+mZkrexdhjhWevH8FElrRiw5MDOZpUCDTJIa4KJQymo7RJO3Inr34Q==}
+    dependencies:
+      tslib: 2.5.0
+    dev: false
+
+  /@ng-icons/core@24.0.0(@angular/common@15.2.8)(@angular/core@15.2.8):
+    resolution: {integrity: sha512-zqe8MDcIB/SXT14d/5gh4SwRrY2ndHALGeFO7YxWm9o+88UuftrLuyVx+UnfWM4h7s4fJp0cXFjikBtbKi80bQ==}
+    peerDependencies:
+      '@angular/common': '>=14.0.0'
+      '@angular/core': '>=14.0.0'
+    dependencies:
+      '@angular/common': 15.2.8(@angular/core@15.2.8)(rxjs@7.8.1)
+      '@angular/core': 15.2.8(rxjs@7.8.1)(zone.js@0.12.0)
+      tslib: 2.5.0
+    dev: false
 
   /@ngtools/webpack@15.2.7(@angular/compiler-cli@15.2.8)(typescript@4.9.5)(webpack@5.76.1):
     resolution: {integrity: sha512-iUCSR03PzGSpwwZ5soioTIWsTPBayzkZfhKMkfz1RqtkbcxC4I07NRoQ1djofhsYyW2I1n7XS8w3K7NILtN3gQ==}

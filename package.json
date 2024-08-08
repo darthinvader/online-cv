@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist/online-cv"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +33,7 @@
     "@angular/compiler-cli": "^15.2.10",
     "@types/jasmine": "~4.3.6",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.1.1",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.4",
     "karma-chrome-launcher": "~3.1.1",

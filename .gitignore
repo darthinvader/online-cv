@@ -40,3 +40,39 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Angular specific
+.angular
+
+# Environment files
+/src/environments/*.js
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local

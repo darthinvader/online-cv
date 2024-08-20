@@ -76,3 +76,7 @@ pids
 .env.test.local
 .env.production.local
 .env.local
+
+#Compodoc
+documentation/
+*storybook.log

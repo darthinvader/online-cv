@@ -1,0 +1,37 @@
+Split up Experience, Education, and Skills into separate files
+TODO:Experience
+TODO:Education
+TODO:Skills
+TODO:Hobbies
+TODO: Generl Section / Header
+
+TODO: Decide on Design
+TODO: Light/Dark mode
+
+TODO: Microinteractions
+
+Light (Neon Blue) Theme:
+text: #202020
+text-emphasis: #000000
+text-muted: #606060
+background: #FFFFFF
+background-emphasis: #F0F0F0
+background-muted: #E0E0E0
+background-body: #F5F5F5
+interactive-color: #00BFFF
+interactive-color-pressed: #0099CC
+interactive-color-deactivated: #B0E0E6
+interactive-color-hover: #1E90FF
+
+Dark (Neon Pink):
+text: #F0F0F0
+text-emphasis: #FFFFFF
+text-muted: #A0A0A0
+background: #121212
+background-emphasis: #1E1E1E
+background-muted: #2A2A2A
+background-body: #080808
+interactive-color: #FF00FF
+interactive-color-pressed: #D300D3
+interactive-color-deactivated: #4D004D
+interactive-color-hover: #FF40FF

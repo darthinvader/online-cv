@@ -7,7 +7,12 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:online-cv": "node dist/online-cv/server/server.mjs"
+    "serve:ssr:online-cv": "node dist/online-cv/server/server.mjs",
+    "compodoc:build": "compodoc -p tsconfig.doc.json",
+    "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s",
+    "compodoc:serve": "compodoc -s",
+    "storybook": "ng run online-cv:storybook",
+    "build-storybook": "ng run online-cv:build-storybook"
   },
   "private": true,
   "dependencies": {
@@ -30,11 +35,22 @@
     "@angular-devkit/build-angular": "^18.1.4",
     "@angular/cli": "^18.1.4",
     "@angular/compiler-cli": "^18.1.0",
+    "@chromatic-com/storybook": "1.7.0",
+    "@compodoc/compodoc": "^1.1.25",
     "@eslint/js": "^9.9.0",
+    "@storybook/addon-docs": "^8.2.9",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/addon-onboarding": "^8.2.9",
+    "@storybook/angular": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/test": "^8.2.9",
     "@types/express": "^4.17.17",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
     "eslint": "9.x",
+    "eslint-plugin-storybook": "^0.8.0",
     "globals": "^15.9.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
@@ -43,8 +59,14 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "prettier": "3.3.3",
+    "storybook": "^8.2.9",
     "tailwindcss": "^3.4.9",
     "typescript": "~5.5.2",
     "typescript-eslint": "^8.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
   }
 }
